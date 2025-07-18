@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0077ff, #ff00cc);
-    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background: #f1f1f1;
+    color: #333;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -9,7 +9,23 @@ body {
 }
 
 .container {
-    padding-top: 15vh;
+    padding-top: 10vh;
+    width: 90%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    margin: 0 0 20px 0;
+    font-size: 2em;
 }
 
 .links {
@@ -19,21 +35,22 @@ body {
 }
 
 .links li {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .links a {
-    display: inline-block;
-    color: #fff;
+    display: block;
+    width: 100%;
+    color: #333;
     font-size: 1.2em;
     text-decoration: none;
-    border: 2px solid #fff;
-    padding: 10px 25px;
-    border-radius: 50px;
-    transition: all 0.2s ease-in-out;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s ease-in-out;
 }
 
 .links a:hover {
-    background-color: #fff;
-    color: #333;
+    background-color: #f2f2f2;
 }
