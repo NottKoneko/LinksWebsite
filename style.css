@@ -1,56 +1,106 @@
+/* Base styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background: #f1f1f1;
-    color: #333;
-    text-align: center;
+    background: #000; /* dark background */
+    color: #fff;
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.container {
-    padding-top: 10vh;
+/* Main card container */
+.card {
     width: 90%;
     max-width: 480px;
-    margin: 0 auto;
+    text-align: center;
 }
 
+/* Profile image and name */
 .profile img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 4px solid #fff;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
 .profile h1 {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
     font-size: 2em;
+    font-weight: 700;
 }
 
+/* Links list */
 .links {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.links li {
-    margin: 10px 0;
+.links li + li {
+    margin-top: 15px;
 }
 
 .links a {
-    display: block;
-    width: 100%;
-    color: #333;
-    font-size: 1.2em;
-    text-decoration: none;
-    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1a1a1a;
+    color: #fff;
     padding: 15px 20px;
+    text-decoration: none;
     border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.2s ease-in-out;
+    transition: transform 0.2s ease, background 0.2s ease;
 }
 
 .links a:hover {
-    background-color: #f2f2f2;
+    background: #2a2a2a;
+    transform: scale(1.03);
+}
+
+.links .icon {
+    margin-right: 10px;
+}
+
+.links .label {
+    flex: 1;
+    text-align: left;
+}
+
+/* Call to action section */
+.cta {
+    margin-top: 30px;
+}
+
+.support {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #444;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.support:hover {
+    background: #555;
+}
+
+.footer-links {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.footer-links a {
+    color: #999;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
