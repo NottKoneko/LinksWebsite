@@ -1,2 +1,2 @@
 # LinksWebsite
-Website for my SM links and sxtuff
+Website for my SM links and stuff
