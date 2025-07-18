@@ -1,10 +1,8 @@
 # LinksWebsite
 
-This is a simple page inspired by Linktree for collecting all of your social media links in one place.
+A simple dark-themed "link hub" page inspired by Linktree. Replace the placeholder links and images with your own to create a personal profile card.
 
 ## Usage
-
-1. Edit `index.html` to replace the sample links with your own profiles.
-2. Replace the profile image URL inside `index.html` with your own photo.
-3. Open `index.html` in a browser to view your page.
-4. Customize the style by editing `style.css`.
+1. Edit `index.html` with your profile name, image, and URLs.
+2. Open `index.html` in a browser to view the page.
+3. Tweak colors and layout in `style.css` if desired.

@@ -3,24 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Links</title>
+    <title>Koneko Links</title>
+    <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Local stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-NInh5pwvDUc0lPChq96IBmTyI9MT9VKXf9Wcw8BwW94E2wCvgp+D+B9cbapK08UpnvDdxbJTDzDZhVrCkd0+xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <div class="profile">
-            <img src="https://via.placeholder.com/150" alt="Profile picture">
-            <h1>My Links</h1>
+    <main class="card">
+        <!-- Profile section -->
+        <header class="profile">
+            <img src="https://via.placeholder.com/150" alt="Profile image">
+            <h1>Koneko</h1>
+        </header>
+        <!-- Social links -->
+        <nav>
+            <ul class="links">
+                <li>
+                    <a href="#" target="_blank">
+                        <span class="icon"><i class="fab fa-github"></i></span>
+                        <span class="label">GitHub</span>
+                        <span class="actions"><i class="fas fa-ellipsis-v"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <span class="icon"><i class="fab fa-tiktok"></i></span>
+                        <span class="label">TikTok</span>
+                        <span class="actions"><i class="fas fa-ellipsis-v"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <span class="icon"><i class="fab fa-twitch"></i></span>
+                        <span class="label">Twitch</span>
+                        <span class="actions"><i class="fas fa-ellipsis-v"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <span class="icon"><i class="fab fa-twitter"></i></span>
+                        <span class="label">Twitter</span>
+                        <span class="actions"><i class="fas fa-ellipsis-v"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <span class="icon"><i class="fa fa-gift"></i></span>
+                        <span class="label">Throne</span>
+                        <span class="actions"><i class="fas fa-ellipsis-v"></i></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Call to action -->
+        <div class="cta">
+            <a class="support" href="#">Support Me</a>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Report</a>
+            </div>
         </div>
-        <ul class="links">
-            <li><a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-            <li><a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-            <li><a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-            <li><a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-        </ul>
-    </div>
+    </main>
 </body>
 </html>
