@@ -45,11 +45,15 @@ body {
     width: 36px;
     height: 36px;
     margin: 0 5px;
-    color: #fff;
     background: #1a1a1a;
     border-radius: 50%;
     text-decoration: none;
     transition: background 0.2s ease;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
 }
 
 .social-icons a:hover {
@@ -86,6 +90,16 @@ body {
 
 .links .icon {
     margin-right: 10px;
+}
+
+.links .icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.links .actions img {
+    width: 20px;
+    height: 20px;
 }
 
 .links .label {
