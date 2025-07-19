@@ -33,6 +33,29 @@ body {
     font-weight: 700;
 }
 
+/* Social icon buttons */
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin: 0 5px;
+    color: #fff;
+    background: #1a1a1a;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.social-icons a:hover {
+    background: #2a2a2a;
+}
+
 /* Links list */
 .links {
     list-style: none;
