@@ -56,6 +56,13 @@ body {
     object-fit: contain;
 }
 
+/* Adjust Twitch and X icons to match the size of the others */
+.social-icons img[alt="Twitch"],
+.social-icons img[alt="X"] {
+    width: 80%;
+    height: 80%;
+}
+
 
 
 /* Links list */
