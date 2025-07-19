@@ -45,20 +45,17 @@ body {
     width: 36px;
     height: 36px;
     margin: 0 5px;
-    background: #1a1a1a;
     border-radius: 50%;
     text-decoration: none;
-    transition: background 0.2s ease;
 }
+
 
 .social-icons img {
-    width: 20px;
-    height: 20px;
+    width: 36px;
+    height: 36px;
 }
 
-.social-icons a:hover {
-    background: #2a2a2a;
-}
+
 
 /* Links list */
 .links {
